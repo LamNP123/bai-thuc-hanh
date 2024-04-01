@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #745050;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #a70b0b;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #320dd4;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #034605;
+    color: rgb(226, 40, 40);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0adb15;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  #errorMesaage {
+    color: rgb(37, 18, 18);
+    margin-top: 10px;
+  }
